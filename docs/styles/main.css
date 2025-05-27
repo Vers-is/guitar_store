@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Amatic+SC:wght@400;700&family=Anton&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Monsieur+La+Doulaise&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patrick+Hand&family=Questrial&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
+    color: var(--main_color)
 }
 
 nav, sidebar, footer {
     position: absolute;
+}
+
+.title {
+    font-family: 'Anton';
+}
+
+:root {
+    main_color: #000000;
+    secondary_color: #9D9D9D;
+    detail_color: #C5C5C5;
+    accent: #FFA85C;
 }
